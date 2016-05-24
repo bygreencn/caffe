@@ -391,7 +391,7 @@ int main(int argc, char** argv) {
   // Print output to stderr (while still logging).
   FLAGS_alsologtostderr = 1;
   // Set version
-  gflags::SetVersionString(AS_STRING(CAFFE_VERSION));
+  gflags::SetVersionString(AS_STRING(v1.0.0));
   // Usage message.
   gflags::SetUsageMessage("command line brew\n"
       "usage: caffe <command> <args>\n\n"
